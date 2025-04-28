@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "skipLibCheck": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "noImplicitAny": false,
+      "noFallthroughCasesInSwitch": false,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true
+    }
+  }

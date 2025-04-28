@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "ESNext"],
+    "module": "Node16",  // Changed from ESNext to Node16 to match moduleResolution
+    "skipLibCheck": true,
+
+    /* Node.js resolution */
+    "moduleResolution": "Node16",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Node.js specific */
+    "types": ["node"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "vite.config.ts",
+    "vitest.config.ts",
+    "postcss.config.js",
+    "tailwind.config.ts",
+    "components.json"
+  ],
+  "exclude": ["node_modules"]
+}
